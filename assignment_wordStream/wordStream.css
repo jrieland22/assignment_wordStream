@@ -1,108 +1,221 @@
 *{
 	margin:0px;
 	padding:0px;
-	outline: 1px dotted red;
+	/*outline: 1px dotted red;*/
 }
 
 .container{
 	font-family: Helvetica;
 	width: 970px;
 	min-height: 50px;
-/*	background-color: blue;*/
 }
-
-div.header{
-	text-align: right;
-}
-	.header-img, .brand1{
-		display: inline-block;
-		vertical-align: middle;
-		margin-left: 5px;
-		color: rgb(111,111,111);
-	}
-
-.brand2{
-	display: inline-block;
-	vertical-align: middle;
-	color: rgb(24,104,189);
-}
-
-.nav{
-	display: inline-block;
-}
-
-	.nav-items{
-		padding: 5px;
+	.smaller-text{
 		font-size: 12px;
-		text-decoration: none;
-		color: gray;
+	}
+	div.header{
+		text-align: right;
+	}
+		.header-img, .brand1{
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: 5px;
+			color: rgb(111,111,111);
+		}
+		.home-button{
+		vertical-align: top;
+		display: inline-block;
+		}
+		.ppc{
+			display: inline-block;
+			vertical-align: top;
+			color: rgb(24,104,189);
+			margin-top: 5px;
+		}
+		.ppc-img{
+			margin-left: 450px;
+		}
+		.brand2{
+			display: inline-block;
+			vertical-align: middle;
+			color: rgb(24,104,189);
+		}
+		.nav{
+			display: inline-block;
+			background-color: rgb(241,241,241);
+		}
+			.nav-items{
+				padding: 5px;
+				font-size: 12px;
+				text-decoration: none;
+				color: gray;
+			}
+			.nav-span{
+				padding: 5px;
+			}
+		.gray-area{
+			width:100%;
+			height: 20px;
+			background: linear-gradient(lightgray,white);
+		}
+
+		.login-button{
+			background-color: rgb(24,104,189);
+			border-radius: 10%;
+			color: white;
+			display: inline-block;
+			background-color: blue;
+		}
+
+		.blue-back{
+			margin: 0px;
+			padding: 10px;
+			color: white;
+			background: linear-gradient(blue,rgb(24,104,189),blue);
+		}
+		.contact{
+		display: inline-block;
+		}
+		.contact-text{
+			font-size: 10px;
+		}
+
+a {
+	color: rgb(24,104,189);
+}
+
+	div.left-column{
+		display: inline-block;
+		width: 200px;
+		min-height: 50px;
+		padding-top: 55px;
+		padding-left: 5px;
 	}
 
-.nav-span{
-	padding: 5px;
-}
+		.red-text{
+			color: red;
+			font-size: 12px;
+			padding-top: 10px;
+		}
 
-.login-button{
-	background-color: rgb(24,104,189);
-	border-radius: 10%;
-	color: white;
-	display: inline-block;
-}
+		.measure-up{
+			width: 198px;
+			height: 241px;
+			background-image: url("left_content_ad.png");
+		    background-color: #cccccc;
+		}
 
-.blue-back{
-	margin: 0px;
-	padding: 10px;
-	background-color: rgb(24,104,189);
-	color: white;
-}
+			.pad10-b{
+			padding-left: 10px;
+			padding-top: 10px;
+			padding-right: 25px;
+		}
 
-div.left-column{
-	display: inline-block;
-	width: 200px;
-	min-height: 50px;
-}
+			.arrow1{
+				color:rgb(52,100,149);
+			}
 
-div.right-column{
-	vertical-align: top;
-	display: inline-block;
-	width: 750px;
-}
+		.pad10{
+			padding-top: 10px;
+			padding-left: 10px;
+			padding-right: 10px;
+			color: blue;
+		}
 
-.home-button{
-	vertical-align: top;
-	display: inline-block;
-	padding-top: 10px;
-}
+		.get-graded{
+			width: 80%;
+			height: 25px;
+			margin-left: 10px;
+			margin-top: 10px;
+			background-color: rgb(18,57,98);
+			color: white;
+			border-radius: 10%;
+		}
+		.pad-bANDt{
+			padding-bottom: 10px;
+			padding-top: 10px;
+		}
 
-.ppc{
-	display: inline-block;
-	vertical-align: top;
-	color: rgb(24,104,189);
-	margin-top: 15px;
-}
+		.demo-button{
+			font-weight: bold;
+			background: rgb(24,104,189);
+			margin-top: 10px;
+			margin-bottom: 2px;
+			width: 100%;
+			height: 25px;
+			padding: 5px;
+			color: white;
+		}
 
-.ppc-img{
-	margin-left: 500px;
-}
+		.trial-button{
+			font-weight: bold;
+			background-color: orange;
+			margin-top: 1px;
+			margin-bottom: 10px;
+			width: 100%;
+			height: 25px;
+			padding: 5px;
+			color: white;
+			border-radius: 10%;
+		}
+		.credit-card{
+			text-align: center;
+			font-size: 12px;
+			margin-bottom: 10px;
+		}
+	div.right-column{
+		vertical-align: top;
+		display: inline-block;
+		width: 700px;
+		margin-left: 10px;
+	}
+		.line-break{
+			margin-top: 15px;
+			font-size: 12px;
+			border-bottom: 1px solid rgb(212,212,212);
+		}
 
-.contact{
-	display: inline-block;
-}
+		.font-size10{
+			font-size: 12px;
+			padding-top:12px;
+		}
 
-.contact-text{
-	font-size: 9px;
-}
+		.blue-text{
+			color: rgb(24,104,189);
+		}
 
-.line-break{
-	margin-top: 15px;
-	font-size: 12px;
-	border-bottom: 1px solid rgb(212,212,212);
-}
+		.ppc-list, .ppc-list li{
+			margin-top: 10px;
+			font-size: 12px;
+		}
 
-p.font-size12{
-	font-size: 12px;
-}
+		.ppc-list{
+			margin-left: 20px;
+		}
 
-.blue-text{
-	color: blue;
-}
+		.drive-profits{
+			width:80%;
+			min-height:50px;
+			border: dashed 1px red;
+			display: inline-block;
+			border: rgb(24,104,189) solid 2px;
+			margin-top: 10px;
+		}
+			.ad-text1{
+				display: inline-block;
+				vertical-align: top;
+				width: 490px;
+			}
+
+			.ad-button{
+				width: 140px;
+				height: 30px;
+				background: linear-gradient(rgb(183,216,89),rgb(130,168,4),rgb(183,216,89));
+				margin-top: 10px;
+				margin-bottom: 5px;
+				border-radius: 10%;
+				color: white;
+			}
+
+	.smaller-text{
+		font-size: 12px;
+	}
