@@ -1,0 +1,154 @@
+/**{
+	margin:0px;
+	padding:0px;
+	outline: 1px dotted red;
+}*/
+
+.container{
+	font-family: Helvetica, Tahoma, Arial;
+	width: 970px;
+	min-height: 500px;
+}
+
+.spacing{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.header{
+	width: 100%;
+	min-height: 50px;
+	display: inline-block;
+}
+
+.header2{
+	display: inline-block;
+	background-color: rgb(108,0,0);
+	width: 100%;
+}
+
+.menu{
+	margin-top: -2px;
+}
+
+.pipeline{
+	vertical-align: middle;
+}
+
+.power-serve{
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 25px;
+	color: white;
+	font-family: 'Comic Sans MS';
+}
+
+.search-size{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 250px;
+	font-size: 10px;
+}
+
+.white-words{
+	color: white;
+}
+
+.yellowlink{
+	color: yellow;
+}
+
+.menu-list
+{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom:5px;
+	font-size: 12px;
+}
+
+.menu-spacing{
+	margin-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.menu-list2
+{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	font-size: 12px;
+}
+
+.header-bottom{
+	background-color: rgb(225,225,225);
+}
+
+.body{
+	width: 100%;
+	min-height: 300px;
+}
+
+.body-left{
+	width: 20%;
+	min-height: 50px;
+	padding-top: 10px;
+	display: inline-block;
+}
+
+.list-box
+{
+	width: 130px;
+	height: 200px;
+	padding: 15px;
+	padding-top: 0px;
+	margin-left: 15px;
+	background-color: rgb(225,225,225);
+}
+
+.list-arrow
+{
+	list-style: none;
+	display: inline-block;
+	padding-left: 10px;
+	font-size: 12px;
+}
+.list-arrow li:before
+{
+	content: '\00BB' '\0020' '\0020';
+}
+
+.list-item
+{
+	padding-top: 5px;
+	text-indent: -5px;
+}
+.body-right{
+	display: inline-block;
+	width: 550px;
+	min-height: 50px;
+	vertical-align: top;
+}
+
+.rc-spacing{
+	margin-top: 15px;
+}
+
+.rc-text{
+	margin-top: 15px;
+	font-size: 12px;
+}
+
+.rc-list{
+	margin-top: 15px;
+	font-size: 12px;
+}
+
+.rc-text2{
+	margin-top: 15px;
+	font-size: 12px;
+	border-bottom: 1px solid;
+}
